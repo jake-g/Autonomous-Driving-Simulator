@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <script type="text/javascript" src="dashboard.js"></script>
+    <!-- Stylesheet for entire page. Stored in same directory.-->
+    <link type="text/css" rel="stylesheet" href="css/simplegrid.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <!-- Stylesheet for particular element if necessary. Stored in module folder-->
+    <link type="text/css" rel="stylesheet" href="libs/gauge2.css">
+    <title>Dashboard Deemo</title>
+
+</head>
+
+<body>
+    <!-- Outer shell of page -->
+    <!-- Contrains module elements -->
+    <div id="main" style="width:1600px; height:1400px; margin: 0px auto; ">
+        <!-- Each div contains a separate element. Not each of these must be used or filled.
+      	Additional ones can also be added as necessary -->
+        <div id="gauges">
+            <center>
+                <div class="grid grid-pad">
+                    <!-- First Column -->
+                    <div class="col-1-4">
+                        <div class="content">
+                            <h1>Distraction</h1>
+                            <div id="distraction"></div>
+                            <hr>
+
+                            <h1>Sleep</h1>
+                            <div id="sleep"></div>
+                        </div>
+                    </div>
+
+                    <!-- Second Column -->
+                    <div class="col-1-4">
+                        <div class="content">
+                            <h1>Phone</h1>
+                            <div id="phone"></div>
+                            <hr>
+
+                            <h1>Happy</h1>
+                            <div id="happy"></div>
+
+                        </div>
+                    </div>
+
+                    <!-- Third Column -->
+                    <div class="col-1-4">
+                        <div class="content">
+                            <h1>Speed</h1>
+                            <div id="speed"></div>
+                            <hr>
+
+                            <h1>Battery Gauge</h1>
+                            <div id="fuel"></div>
+
+                        </div>
+                    </div>
+
+                    <!-- Fourth Column -->
+                    <div class="col-1-4">
+                        <div class="content">
+                            <h1>RPM</h1>
+                            <div id="rpm"></div>
+                            <hr>
+
+                            <h1>Yaw</h1>
+                            <div id="yaw"></div>
+
+                            <hr>
+
+                            <h1>Gear</h1>
+                            <div id="gear"></div>
+
+                          </div>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+
+    </div>
+</body>
+
+</html>
